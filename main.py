@@ -3,3 +3,9 @@ while True:
      if choice == "1":
         plain_text = input("text:")
         encrypted_text=""
+          for c in plain_text:
+            x = ord(c) * 2 +5
+            encrypted_text += chr(x)
+        print("encryted_text:", encrypted_text)
+        print("*"*40 + "\n")
+        
