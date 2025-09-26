@@ -8,4 +8,7 @@ while True:
             encrypted_text += chr(x)
         print("encryted_text:", encrypted_text)
         print("*"*40 + "\n")
-        
+     elif choice == "2":
+         encrypted_text = input("encrypted_text:")
+         plain_text = ""
+           
