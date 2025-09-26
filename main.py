@@ -20,3 +20,5 @@ while True:
          print("Goodbye!")
          print("*"*40 + "\n")
          break
+     else:
+         print("Your choice is wrong!")
