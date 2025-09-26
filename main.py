@@ -11,4 +11,9 @@ while True:
      elif choice == "2":
          encrypted_text = input("encrypted_text:")
          plain_text = ""
+         for c in encrypted_text:
+             x = ( ord (c) - 5) // 2
+             plain_text += chr(x)
+         print("plaintext:", plain_text)
+         print("*"*40 + "\n")
            
