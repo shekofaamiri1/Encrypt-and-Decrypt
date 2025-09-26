@@ -16,4 +16,7 @@ while True:
              plain_text += chr(x)
          print("plaintext:", plain_text)
          print("*"*40 + "\n")
-           
+     elif choice == "3":
+         print("Goodbye!")
+         print("*"*40 + "\n")
+         break
